@@ -1,0 +1,74 @@
+version: 2
+
+sources:
+  - name: test
+    database: my-project-4318-1707315500416
+    schema: raw_data
+    description: Sources brutes des données
+    tables:
+      - name: customers
+        identifier: customers
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: products
+        identifier: products
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: order_items
+        identifier: order_items
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: leads_qualified
+        identifier: leads_qualified
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: sellers
+        identifier: sellers
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: leads_closed
+        identifier: leads_closed
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: geolocation
+        identifier: geolocation
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: orders
+        identifier: orders
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: order_payments
+        identifier: order_payments
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: order_reviews
+        identifier: order_reviews
+        config:
+          tags:
+            - tag1
+            - tag2
+      - name: product_category_name_translation
+        identifier: product_category_name_translation
+        config:
+          tags:
+            - tag1
+            - tag2```
